@@ -11,8 +11,8 @@ def Connect(dialname, account, passwd):
 
 def DialBroadband():
     dialname = '宽带连接'  # just a name
-    account = 'szat18613'
-    passwd = '123456'
+    account = '宽带账号'
+    passwd = '宽带密码'
     try:
         # handle is a pid, for disconnect or showipadrress, if connect success return 0.
         # account is the username that your ISP supposed, passwd is the password.
